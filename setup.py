@@ -14,7 +14,7 @@ setup(
     description="Image Processing Package using Skimage",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/arthurrfleck/image-processing-package"
+    url="https://github.com/arthurrfleck/image-processing-package",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
