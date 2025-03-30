@@ -5,6 +5,8 @@ with open("README.md", "r") as f:
 
 with open("requirements.txt") as f:
     requirements = f.read().splitlines()
+    
+print("Iniciando execução do setup.py...")
 
 setup(
     name="image_processing",
