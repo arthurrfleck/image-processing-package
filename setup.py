@@ -1,3 +1,5 @@
+print("Iniciando execução do setup.py...")
+
 from setuptools import setup, find_packages
 
 with open("README.md", "r") as f:
@@ -6,7 +8,6 @@ with open("README.md", "r") as f:
 with open("requirements.txt") as f:
     requirements = f.read().splitlines()
     
-print("Iniciando execução do setup.py...")
 
 setup(
     name="image_processing",
@@ -21,3 +22,5 @@ setup(
     install_requires=requirements,
     python_requires='>=3.8',
 )
+
+print("Finalizando execução do setup.py...")
